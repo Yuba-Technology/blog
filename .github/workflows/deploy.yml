@@ -1,0 +1,33 @@
+name: Build and deploy blog
+on:
+  push:
+    branches: [main]
+  pull_request:
+    types: [closed]
+    branches: [main]
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: |
+          npm install hexo-cli -g
+          npm install hexo-renderer-pug 
+          npm install hexo-renderer-dartsass
+          npm install hexo-generator-search
+          # if you need RSS, you must be install this plugin
+          npm install hexo-generator-feed
+          # Flowchat
+          npm install hexo-filter-flowchart        
+          # Math
+          npm install hexo-renderer-mathjax
+          hexo clean
+          hexo generate
+
+      - name: deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          CLEAN: true
+          BRANCH: gh-pages
+          FOLDER: public/

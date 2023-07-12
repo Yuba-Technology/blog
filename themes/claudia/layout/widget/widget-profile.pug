@@ -1,0 +1,23 @@
+main.aside-card-container.profile-widget
+    button#profile-toggle.button.is-default.is-hidden-desktop.is-hidden-tablet-only.is-flex.is-justify-content-center.is-align-items-center(aria-controls="profile-aside")
+        i.iconfont.icon-profile
+    // todo: 使用取色工具动态阴影
+    section.profile-container.is-flex.is-flex-direction-column.is-justify-content-center.is-align-items-center
+        section.is-flex.is-justify-content-center.avatar.is-clipped(class= theme.user && theme.user.avatar && 'skeleton')
+            if (theme.user && theme.user.avatar)
+                // debug images "https://api.ixiaowai.cn/gqapi/gqapi.php"
+                img.avatar-light.js-img-fadeIn(src= url_for(theme.user.avatar) alt="user avatar")
+                img.avatar-dark.js-img-fadeIn(src= url_for(theme.user.avatar_dark) alt="user avatar")
+            else
+                div.avatar-placeholder
+        if (theme.user)
+            h3.user-name= theme.user.name || config.author || ''
+            if theme.user.description
+                blockquote.has-text-centered.is-relative
+                    span(style="margin-bottom: 5px;")= theme.user.description
+            if (theme.user.location)
+                address.has-text-centered.has-text-grey
+                    i.iconfont.icon-location(style="margin-right: 5px;")
+                    span.has-text-grey= theme.user.location
+    section.sns-container.is-flex.is-justify-content-center.is-align-items-center
+        include widget-sns
