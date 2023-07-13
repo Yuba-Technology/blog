@@ -59,6 +59,12 @@ $lineColor: var(--border-line-color);
 {
   .post-content
   {
+    table
+    {
+      width: 100%;
+      display: inline-block;
+      overflow: auto;
+    }
 
     pre,
     code
@@ -76,9 +82,10 @@ $lineColor: var(--border-line-color);
       {
         width: 100%;
         background: var(--third-bg-color);
-        table-layout: fixed;
         border: 1px solid $lineColor;
         border-radius: 4px;
+        display: table;
+        table-layout: fixed;
 
         tr
         {
@@ -95,6 +102,7 @@ $lineColor: var(--border-line-color);
 
             pre
             {
+              width: 100%;
               color: var(--second-text-color);
               padding: 8px 0.5em 0 0;
             }
@@ -102,6 +110,7 @@ $lineColor: var(--border-line-color);
 
           td.code
           {
+            width: 100%;
             padding-left: 0;
             overflow: auto;
           }
