@@ -1,27 +1,30 @@
 .post-container
 {
-  img
+
+  img.avatar-dark,
+  img.avatar-light,
+  img.avatar-all
   {
     aspect-ratio: 1 / 1;
     // !Only for Yuba
     padding: 15%;
+  }
 
-    &.avatar-dark
+  img.avatar-dark
+  {
+    display: none;
+  }
+
+  @media(prefers-color-scheme: dark)
+  {
+    img.avatar-dark
     {
-      display: none;
+      display: block;
     }
 
-    @media(prefers-color-scheme: dark)
+    img.avatar-light
     {
-      &.avatar-dark
-      {
-        display: block;
-      }
-
-      &.avatar-light
-      {
-        display: none;
-      }
+      display: none;
     }
   }
 
