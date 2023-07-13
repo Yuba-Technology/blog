@@ -1,4 +1,6 @@
-.post-container img {
+.post-container img.avatar-dark,
+.post-container img.avatar-light,
+.post-container img.avatar-all {
   aspect-ratio: 1/1;
   padding: 15%;
 }
