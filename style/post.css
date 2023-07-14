@@ -32,6 +32,9 @@
   transform: translateY(0);
 }
 
+.post-page .post-content blockquote footer {
+  overflow-wrap: break-word;
+}
 .post-page .post-content table {
   width: 100%;
   display: inline-block;
