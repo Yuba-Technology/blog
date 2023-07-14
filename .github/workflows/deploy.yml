@@ -25,6 +25,14 @@ jobs:
           hexo clean
           hexo generate
 
+          # Markdown render
+          npm un hexo-renderer-marked --save
+          npm i hexo-renderer-markdown-it-plus --save
+
+          # Generate HTML
+          hexo clean
+          hexo generate
+
       - name: deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
