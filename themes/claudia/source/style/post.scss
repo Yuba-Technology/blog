@@ -59,6 +59,14 @@ $lineColor: var(--border-line-color);
 {
   .post-content
   {
+    blockquote
+    {
+      footer
+      {
+        overflow-wrap: break-word;
+      }
+    }
+
     table
     {
       width: 100%;
