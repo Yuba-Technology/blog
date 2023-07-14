@@ -22,16 +22,6 @@ jobs:
           npm install hexo-filter-flowchart        
           # Math
           npm install hexo-renderer-mathjax
-
-          # Markdown render
-          npm un hexo-renderer-marked --save
-          npm i hexo-renderer-markdown-it --save
-          npm i markdown-it-emoji --save
-          npm i markdown-it-mark --save
-          npm i markdown-it-deflist --save
-          npm i markdown-it-container --save
-
-          # Generate HTML
           hexo clean
           hexo generate
 
