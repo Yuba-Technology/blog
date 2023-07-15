@@ -1,11 +1,15 @@
-
+//- !Only for Yuba
+- var pageTitle = ''
 - if (is_archive()) pageTitle = 'Archives'
 - if (is_tag()) pageTitle = 'Tag: ' + page.tag
 - if (is_category()) pageTitle = 'Category: ' + page.category
-- if (is_month()) pageTitle += ': ' + page.month + '/' + page.year
-- if (is_year()) pageTitle += ': ' + page.year
-- var pageTitle = page.title || __('blog') + " | " + theme.user && theme.user.name
+- if (is_year()) pageTitle = 'Year: ' + page.year
+- if (is_month()) pageTitle = 'Month: ' + page.month + '/' + page.year
+- if (page.path === 'index.html') pageTitle = config.title
+- var pageTitle = pageTitle || page.title || __('blog') + " | " + theme.user && theme.user.name
+
 - var appearance = theme.appearance ? theme.appearance : 'auto'
+
 
 doctype html
 html(lang=config.language class= `appearance-${ appearance }`)
