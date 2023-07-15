@@ -19,6 +19,9 @@ article.post-container.is-flex.is-justify-content-center.section.container.is-ma
                             section.content.post-card-content.p-4.pb-5
                                 if post.tags && post.tags.length > 0
                                     header
+                                            each category in post.categories.toArray()
+                                                a(href= url_for(`/categories/${category.name}`))
+                                                    i.tag.post-item-category= category.name
                                             each tag in post.tags.toArray()
                                                 a(href= url_for(`/tags/${tag.name}`))
                                                     i.tag.post-item-tag= tag.name
