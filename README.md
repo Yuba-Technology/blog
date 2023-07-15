@@ -54,7 +54,7 @@ author: 作者 (可选)
 
 ## 文章发布
 
-合并 Pull Request 后，文章会自动发布到 [https://yuba.tech/blog](https://yuba.tech/blog)。
+合并 Pull Request 后，文章会自动发布到 [https://blog.yuba.tech](https://blog.yuba.tech)。
 
 ## 文章讨论
 
