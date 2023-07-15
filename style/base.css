@@ -119,6 +119,15 @@
   background: transparent;
   border: 2px solid darkorange;
 }
+:root body .tag.post-item-category {
+  margin-right: 5px;
+  font-weight: bold;
+  color: var(--second-bg-color);
+  font-style: normal;
+  border-radius: 10px;
+  background: darkorange;
+  border: 2px solid darkorange;
+}
 :root body .button.is-default {
   height: 40px;
   border: none;
