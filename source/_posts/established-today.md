@@ -379,6 +379,18 @@ Every interaction is both precious and an opportunity to delight.
 57. foo
 1. bar
 
+### 任务列表 (Task Lists)
+
+```markdown source code
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+```
+
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+
 ## 代码 (Code)
 
 ### 行内代码 (Inline Code)
