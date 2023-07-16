@@ -29,6 +29,9 @@ jobs:
           npm un hexo-renderer-marked --save
           npm i hexo-renderer-markdown-it-plus --save
 
+          # Render task list prefix
+          npm install cheerio --save
+
           # Generate HTML
           hexo clean
           hexo generate
