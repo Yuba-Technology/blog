@@ -2,7 +2,7 @@
 title: 煜霸科技博客今日开通
 date: 2023-07-10 00:00:00
 tags:
-  - Hello, world!
+  - Hello-world
 ---
 
 # 煜霸科技博客今日开通
