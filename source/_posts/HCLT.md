@@ -10,7 +10,7 @@ categories: 标签介绍
 
 <!-- more -->
 
-## <abbr title="High Creativity, Low Technology">HCLT</abbr>————创意为先，技术为辅
+## <abbr title="High Creativity, Low Technology">HCLT</abbr>——创意为先，技术为辅
 
 <abbr title="High Creativity, Low Technology">HCLT</abbr>是“高创意，低技术”的缩写，是煜霸科技的一种创作风格。
 
