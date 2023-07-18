@@ -67,6 +67,33 @@
     </entry>
     
     
+    
+    <entry>
+      <title>2022年旧活慢整</title>
+      <link href="/2022/12/30/2022%E5%B9%B4%E6%97%A7%E6%B4%BB%E6%85%A2%E6%95%B4/"/>
+      <url>/2022/12/30/2022%E5%B9%B4%E6%97%A7%E6%B4%BB%E6%85%A2%E6%95%B4/</url>
+      
+        <content type="html"><![CDATA[<h1 id="2022-年旧活慢整"><a class="markdownIt-Anchor" href="#2022-年旧活慢整"></a> 2022 年旧活慢整</h1><span id="more"></span><p><s>…校长，他们似乎不太满足。（指访客）</s></p><p><s>哦，别担心，我已经解决了。</s></p><p>汇集了 2022 年所有的新项目（特别是 <abbr title="High Creativity, Low Technology">HCLT</abbr> 项目），但由于博客开通于 2023 年 7 月，所以不是新活速递，是旧活慢整。😎</p><h2 id="雾城-202211"><a class="markdownIt-Anchor" href="#雾城-202211"></a> 雾城 (2022.11)</h2><p><img src="/images/fg.png" alt="雾城图片" /></p><p>链接：<a href="https://yubac.github.io/fg">https://yubac.github.io/fg</a></p><p>项目地址：<a href="https://github.com/YubaC/fg">https://github.com/YubaC/fg</a></p><p>雾城。</p><p>终年弥漫着久久不能散去的迷雾的城市，灰色是其唯一的主旋律。</p><p>欢迎来到雾高，校长先生。</p><p>你是这里的第 37 任校长。</p><p>你的目的和我的目的是一样的。我们都想让这所具有 70 余年历史的高中运营下去，顺便得以谋生。</p><p>但你要小心，不只有一个人觊觎着你的位置、你的权力，稍不注意就可能导致你赔的血本无归。</p><p>…或许，终年弥漫的迷雾下，隐藏着一些不为人知的秘密？</p><h2 id="gobang-202212"><a class="markdownIt-Anchor" href="#gobang-202212"></a> Gobang (2022.12)</h2><p><img src="/images/Gobang.png" alt="Gobang 图片" /></p><p>链接/项目地址：<a href="https://github.com/YubaC/Gobang">https://github.com/YubaC/Gobang</a></p><p><s>五子棋，但是 README.md</s></p><p>这是一个在 <a href="http://README.md">README.md</a> 中的五子棋游戏。所有的处理均由 Github Actions 完成。</p><p>工作原理为：</p><ol><li>点击棋盘空白处，发送一个 Issue 以触发 Github Actions。</li><li>Github Actions 运行一个 Python 脚本，进行落子，并检查是否有人获胜。</li><li>Python 脚本将棋盘状态写入 <a href="http://README.md">README.md</a>。</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 新品速递 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> HCLT </tag>
+            
+            <tag> 新活 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
   
   
 </search>
