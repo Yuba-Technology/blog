@@ -22,6 +22,9 @@ block content
             .column.is-9
                 header.my-4
                     if page.tags && page.tags.length > 0
+                        each category in page.categories.toArray()
+                            a(href= url_for(`/categories/${category.name}`))
+                                i.tag.post-item-category= category.name
                         each tag in page.tags.toArray()
                             a(href= url_for(`/tags/${tag.name}`))
                                 i.tag.post-item-tag= tag.name
