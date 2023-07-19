@@ -77,14 +77,6 @@ _斜体_
 ~~删除线~~
 
 <u>下划线</u>
-
-## 引用 (Blockquotes)
-
-> Blockquotes can also be nested...
->
-> > ...by using additional greater-than signs right next to each other...
-> >
-> > > ...or with spaces between arrows.
 ```
 
 **加粗**
@@ -96,6 +88,14 @@ _斜体_
 <u>下划线</u>
 
 ## 引用 (Blockquotes)
+
+```markdown source code
+> Blockquotes can also be nested...
+>
+> > ...by using additional greater-than signs right next to each other...
+> >
+> > > ...or with spaces between arrows.
+```
 
 > Blockquotes can also be nested...
 >
@@ -148,85 +148,83 @@ Every interaction is both precious and an opportunity to delight.
 
 <p align="left">左对齐</p>
 
-<p align="center">
-  <img src="/images/logo.svg" alt="图片" />
+<img src="/images/lake.png" alt="图片" />
 
-  <br />
+<br />
 
-  <em>图片</em>
+<em>图片</em>
 
-  <br />
+<br />
 
-  <strong>图片</strong>
+<strong>图片</strong>
 
-  <br />
+<br />
 
-  <u>图片</u>
+<u>图片</u>
 
-  <br />
+<br />
 
-  <a href="https://yuba.tech/">链接</a>
+<a href="https://yuba.tech/">链接</a>
 
-  <br />
+<br />
 
-  <code>行内代码</code>
+<code>行内代码</code>
 
-  <br />
+<br />
 
-  <kbd>键盘</kbd>
+<kbd>键盘</kbd>
 
-  <br />
+<br />
 
-  <samp>输出</samp>
+<samp>输出</samp>
 
-  <br />
+<br />
 
-  <var>变量</var>
+<var>变量</var>
 
-  <br />
+<br />
 
-  <sub>下标</sub>
+<sub>下标</sub>
 
-  <br />
+<br />
 
-  <sup>上标</sup>
+<sup>上标</sup>
 
-  <br />
+<br />
 
-  <small>小字</small>
+<small>小字</small>
 
-  <br />
+<br />
 
-  <mark>高亮</mark>
+<mark>高亮</mark>
 
-  <br />
+<br />
 
-  <del>删除线</del>
+<del>删除线</del>
 
-  <br />
+<br />
 
-  <ins>下划线</ins>
+<ins>下划线</ins>
 
-  <br />
+<br />
 
-  <abbr title="Abbreviation">缩写</abbr>
+<abbr title="Abbreviation">缩写</abbr>
 
-  <br />
+<br />
 
-  <cite>引用</cite>
+<cite>引用</cite>
 
-  <br />
+<br />
 
-  <q>引用</q>
+<q>引用</q>
 
-  <br />
+<br />
 
-  <dfn>定义</dfn>
+<dfn>定义</dfn>
 
-  <br />
+<br />
 
-  <s>删除线</s>
-</p>
+<s>删除线</s>
 ```
 
 <p align="center">居中</p>
@@ -237,8 +235,7 @@ Every interaction is both precious and an opportunity to delight.
 
 <p align="left">左对齐</p>
 
-<p align="center">
-  <img src="/images/logo.svg" alt="图片" />
+  <img src="/images/lake.png" alt="图片" />
 
   <br />
 
@@ -316,8 +313,6 @@ Every interaction is both precious and an opportunity to delight.
 
 <s>删除线</s>
 
-</p>
-
 ## 分界线 (Horizontal Rules)
 
 ```markdown source code
@@ -381,12 +376,12 @@ Every interaction is both precious and an opportunity to delight.
 
 ```markdown source code
 - [x] Write the press release
-- [ ] Update the website
+- [x] Update the website
 - [ ] Contact the media
 ```
 
 - [x] Write the press release
-- [ ] Update the website
+- [x] Update the website
 - [ ] Contact the media
 
 ## 代码 (Code)
