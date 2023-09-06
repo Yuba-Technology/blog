@@ -12,7 +12,27 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: |
-          npm install
+          npm install hexo-cli -g
+          npm install hexo-renderer-pug 
+          npm install hexo-renderer-dartsass
+          npm install hexo-generator-search
+          # if you need RSS, you must be install this plugin
+          npm install hexo-generator-feed
+          # Flowchat
+          npm install hexo-filter-flowchart        
+          # Math
+          npm install hexo-renderer-mathjax
+          hexo clean
+          hexo generate
+
+          # Markdown render
+          npm un hexo-renderer-marked --save
+          npm i hexo-renderer-markdown-it-plus --save
+
+          # Render task list prefix
+          npm install cheerio --save
+
+          # Generate HTML
           hexo clean
           hexo generate
 
